@@ -28,3 +28,37 @@ const posts = [
     }
 ]
 
+const mainContainer = document.getElementById("main-container");
+
+for (let index = 0; index < posts.length; index++) {
+    const post = posts[index];
+    
+    // Create post element
+    createPost(post);
+}
+
+function createPost(post) {
+    //TODO: Write HTML to create a post element    
+
+    mainContainer.innerHTML += `
+    <section class="post-container">
+        <div class="post-header">
+            <img src="${post.avatar}" alt="avatar" class="avatar">
+            <div class="user-info">
+                <h3>${post.name}</h3>
+                <p>${post.location}</p>
+            </div>
+        </div>
+        <img src="${post.post}" alt="post" class="post">
+        <div class="post-footer">
+            <div class="interactions">
+                <img src="images/icon-heart.png" alt="Like icon" class="icon">
+                <img src="images/icon-comment.png" alt="Comment Icon" class="icon">
+                <img src="images/icon-dm.png" alt="Direct Message Icon" class="icon">
+            </div>
+            <p>${post.likes} likes</p>
+            <p><strong>${post.username}</strong> ${post.comment}</p>
+        </div>
+    `
+}
+
