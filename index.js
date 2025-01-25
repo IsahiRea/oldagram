@@ -56,9 +56,10 @@ function createPost(post) {
                 <img src="images/icon-comment.png" alt="Comment Icon" class="icon">
                 <img src="images/icon-dm.png" alt="Direct Message Icon" class="icon">
             </div>
-            <p>${post.likes} likes</p>
-            <p><strong>${post.username}</strong> ${post.comment}</p>
+            <p class="bold">${post.likes} likes</p>
+            <p><span class="bold">${post.username}</span> ${post.comment}</p>
         </div>
+    </section>
     `
 }
 

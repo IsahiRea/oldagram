@@ -52,6 +52,7 @@ body {
     flex-direction: column;
     justify-content: left;
     align-items: start;
+    font-size: 2rem;
 }
 
 .interactions {
@@ -60,6 +61,20 @@ body {
     width: 30%;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .icon {
     width: 70px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+
+.separator {
+    margin: 10px 0;
+    border-bottom: 1px solid black;
 }
