@@ -9,6 +9,10 @@ body {
     width: 900px;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .head-container {
     display: flex;
     justify-content: space-between;
@@ -30,7 +34,7 @@ body {
 }
 
 .post-container {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .post-header {
@@ -40,6 +44,19 @@ body {
 
 .user-info {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.username {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.location {
+    margin-top: 0;
+    font-size: 1.5rem;
 }
 
 .post {
@@ -75,6 +92,7 @@ body {
 
 
 .separator {
-    margin: 10px 0;
-    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background-color: #EDEDED;
 }

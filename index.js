@@ -45,8 +45,8 @@ function createPost(post) {
         <div class="post-header">
             <img src="${post.avatar}" alt="avatar" class="avatar">
             <div class="user-info">
-                <h3>${post.name}</h3>
-                <p>${post.location}</p>
+                <h3 class="username">${post.name}</h3>
+                <p class="location">${post.location}</p>
             </div>
         </div>
         <img src="${post.post}" alt="post" class="post">
@@ -60,6 +60,7 @@ function createPost(post) {
             <p><span class="bold">${post.username}</span> ${post.comment}</p>
         </div>
     </section>
+    <div class="separator"></div>
     `
 }
 
