@@ -1,6 +1,6 @@
 # Oldagram
 
-This repository contaains a social media platform where historical figures come to life! This project is inspired by Instagram but reimagined to allow users to explore the lives, accomplishments, and personalities of historical figures in a creative and interactive way. It’s a straightforward project designed to improve my understanding of web development fundamentals.
+This repository contains a social media platform where historical figures come to life! This project is inspired by Instagram but reimagined to allow users to explore the lives, accomplishments, and personalities of historical figures in a creative and interactive way. It’s a straightforward project designed to improve my understanding of web development fundamentals.
 
 ## Getting Started
 
